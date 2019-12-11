@@ -1,0 +1,22 @@
+
+<h3>Top Crimes</h3>
+
+
+<table>
+    <thead>
+        <tr>
+          <th scope="col">Crime</th>
+          <th scope="col">Arrests</th>
+        </tr>
+      </thead>
+  <tr *ngFor="let crime of crimes" >
+      <td><a routerLink="/topPlayers/{{crime.Category}}" >{{ crime.Category }}</a> </td>
+      <td class="badge badge-primary badge-pill">{{ crime.arrest_count }}</td>
+  </tr>
+ 
+</table>
+
+     
+
+
+

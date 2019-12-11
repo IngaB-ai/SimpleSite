@@ -1,0 +1,27 @@
+<p>
+  crimes-details works!
+</p>
+
+<aside>
+  <div class="list-group">
+      <h3>Top Player of Crimes</h3>
+     
+<!-- <div style="display: block">
+    <canvas baseChart
+                [data]="doughnutChartData"
+                [labels]="doughnutChartLabels"
+                [chartType]="doughnutChartType"></canvas>
+  </div> -->
+  
+  
+  
+        <ol >
+            <li *ngFor="let topPlayer of topPlayers">
+            <span>{{ topPlayer.Name }}</span>
+            <span class="value-cell">{{ topPlayer.arrest_count }}</span>
+          </li>
+          </ol>
+       
+  </div>
+  
+  
