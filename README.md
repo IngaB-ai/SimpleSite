@@ -2,17 +2,21 @@
 
 
 ### Top Crimes(main) page:
-- make components for top-crime, top-players, top teams
+- make components for Top crime, Top players, Top teams
 - make services for them 
 - get crimes from the endpoint in json formate
 - list crimes in decreasing order in a table formate
 - use basic css ui (I used Boostrap for this example)
 - has an option to click on a crime and gsee the top players in the separate page more detail 
 
+*screenshots will be added 
+
 
 ### Top Players of crimes page:
 - get details of selected crime from an endpoint
 - displays them in a tab
+
+*screenshots will be added 
 
 ### Future features:
 - proceed with the same maner with other top rankings. Now when there is template should 1/10 of a time
@@ -20,6 +24,7 @@
 - find a reason why charts.js is not working properly. Thorougly checked  and changed the DI. It is not an issue.
 - tweak component tree to more eye pleasing 
 - write tests
+
 
 ### Technicalities
 - It should be e built using Angular (NOT angular.js)
