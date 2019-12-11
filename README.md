@@ -9,14 +9,14 @@
 - use basic css ui (I used Boostrap for this example)
 - has an option to click on a crime and gsee the top players in the separate page more detail 
 
-*screenshots will be added 
+<img width="960" alt="Top Crimes" src="https://user-images.githubusercontent.com/58734028/70610434-df984780-1c03-11ea-8824-7cef2a7043a5.png">
 
 
 ### Top Players of crimes page:
 - get details of selected crime from an endpoint
 - displays them in a tab
 
-*screenshots will be added 
+<img width="960" alt="Top Crimes" src="https://user-images.githubusercontent.com/58734028/70610534-06567e00-1c04-11ea-84b6-76aa8a45f6df.png">
 
 ### Future features:
 - proceed with the same maner with other top rankings. Now when there is template should 1/10 of a time
